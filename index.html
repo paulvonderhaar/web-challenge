@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Wind Speed</title>
+  <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -13,10 +13,10 @@
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">Wind Speed</a>
+      <a class="navbar-brand" href="#">Lattitude</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="index.html">Home</a></li>
+      <li class="active"><a href="#">Home</a></li>
       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots <span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="Maxtemp.html">Max Temperature</a></li>
@@ -32,17 +32,11 @@
   </div>
 </nav>
   
-
-<div class='section content'>
-  <div class='illustration'>
-    <img src='WIndspeed.png' style='max-width: 500px'/>
-  </div>
-</div>
 <div class="container">
-  <h3>Summary: Lattitude vs. Windspeed</h3>
-  <p>It seems that there is very little correlation between wind speed and Lattidue, and it seems largely to be constrained to below 20 mph.</p>
+  <h3>Summary: Lattitude vs. X</h3>
+  <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
 
-  <p> The very high outliar in this case was likely a very strong hurricane or typhoon somewhere in the world, but I can not find a record of it. Its also possible that it was missreported, simple human error.</p>
+  <p> After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs latitude. Factors we looked at included: temperature, cloudiness, windspeed, and humidity. This site provides the source data and visulizations created as part of the analysis, as well as explanations nad descriptions of any trends and correlations witnessed.</p>
 </div>
 
 </body>

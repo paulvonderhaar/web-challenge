@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>buttslol</title>
+  <title>Humidity</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -13,28 +13,36 @@
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">WebSiteName</a>
+      <a class="navbar-brand" href="#">Humidity</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
+      <li class="active"><a href="index.html">Home</a></li>
       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots <span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="Maxtemp.html">Max Temperature</a></li>
-          <li><a href="#">Humidity</a></li>
-          <li><a href="#">Cloudiness</a></li>
-          <li><a href="#">Wind Speed</a></li>
+          <li><a href="Humidity.html">Humidity</a></li>
+          <li><a href="cloudiness.html">Cloudiness</a></li>
+          <li><a href="windspeed.html">Wind Speed</a></li>
 
         </ul>
       </li>
-      <li><a href="#">Comparison</a></li>
-      <li><a href="#">Data</a></li>
+      <li><a href="comparison.html">Comparison</a></li>
+      <li><a href="data.html">Data</a></li>
     </ul>
   </div>
 </nav>
   
+
+<div class='section content'>
+  <div class='illustration'>
+    <img src='Humidity.png' style='max-width: 500px'/>
+  </div>
+</div>
 <div class="container">
-  <h3>Navbar With Dropdown</h3>
-  <p>This example adds a dropdown menu for the "Page 1" button in the navigation bar.</p>
+  <h3>Summary: Lattitude vs. Humidity</h3>
+  <p>There are two points that are interesting about this graph. First, it seems that there is little to no correlation between humidity and latitude. It seems that overall that the maximum humidity is 100%, except for one unknown station. It is unknown whether this humidity is an erorr, or an extrodinary case.</p>
+
+  <p> Second, it seems thatthat overall, most places seem to have over 50% humidity. I believe this is because most weather stations tend to be places near water, either near a coast, or on a river, which increases humidity drastically. This shouldn't be taken as a true represenative of Earth's humidity, only of the populated Earth's humidity.</p>
 </div>
 
 </body>
